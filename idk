@@ -1,0 +1,5 @@
+def szescian(liczba):
+    return liczba**3
+liczba = int(input("podaj liczbę: "))
+wynik = szescian(liczba)
+print(wynik)
