@@ -3,3 +3,12 @@ def szescian(liczba):
 liczba = int(input("podaj liczbę: "))
 wynik = szescian(liczba)
 print(wynik)
+
+def dodawanie(liczba1, liczba2):
+    suma = liczba1 + liczba2
+    return suma
+    
+pierwsza = int(input("podaj liczbę: "))
+druga = int(input("podaj liczbę: "))
+wynik = dodawanie(pierwsza, druga)
+print(wynik)
